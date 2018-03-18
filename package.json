@@ -1,0 +1,47 @@
+{
+  "name": "@lonord/pi-dashboard-module-aria2",
+  "version": "1.0.0",
+  "description": "Aria2 status module for pi dashboard",
+  "main": "lib/",
+  "types": "lib/",
+  "scripts": {
+    "build": "rimraf lib && tsc",
+    "prepublishOnly": "npm run build",
+    "dev": "pi-dashboard-debug $(pwd)"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lonord/pi-dashboard-module-aria2.git"
+  },
+  "keywords": [
+    "aria2",
+    "raspberrypi",
+    "status"
+  ],
+  "author": "Loy B. <lonord@qq.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/lonord/pi-dashboard-module-aria2/issues"
+  },
+  "homepage": "https://github.com/lonord/pi-dashboard-module-aria2#readme",
+  "devDependencies": {
+    "@lonord/pi-dashboard-debug": "^1.0.7",
+    "@types/lodash": "^4.14.105",
+    "@types/node": "^9.4.6",
+    "@types/react": "^16.0.39",
+    "react": "^16.2.0",
+    "react-dom": "^16.2.0",
+    "rimraf": "^2.6.2",
+    "styled-components": "^3.1.6",
+    "tslint": "^5.9.1",
+    "tslint-react": "^3.5.1",
+    "typescript": "^2.7.2",
+    "typescript-styled-plugin": "^0.6.0"
+  },
+  "dependencies": {
+    "@lonord/pi-dashboard-components": "^1.0.9",
+    "@lonord/react-electron-components": "^1.0.12",
+    "aria2": "^3.0.0",
+    "lodash": "^4.17.5"
+  }
+}

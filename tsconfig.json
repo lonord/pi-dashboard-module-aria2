@@ -1,0 +1,17 @@
+{
+  "compilerOptions": {
+    "target": "es6",
+    "module": "commonjs",
+    "jsx": "react",
+    "outDir": "./lib",
+    "rootDir": "./src",
+    "removeComments": true,
+    "inlineSourceMap": true,
+    "plugins": [{
+      "name": "typescript-styled-plugin"
+    }]
+  },
+  "include": [
+    "./src/**/*"
+  ]
+}

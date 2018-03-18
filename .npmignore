@@ -1,0 +1,10 @@
+src/
+*/__test__/
+node_modules/
+.vscode/
+*.log
+example/
+tsconfig.json
+tslint.json
+tsconfig.*.json
+*.tgz
